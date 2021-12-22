@@ -1,0 +1,135 @@
+/* montserrat-regular - latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/montserrat-v18-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat-v18-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* montserrat-500 - latin */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+         url('../fonts/montserrat-v18-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat-v18-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* montserrat-700 - latin */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('../fonts/montserrat-v18-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat-v18-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+/* merriweather-700 - latin */
+@font-face {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('../fonts/merriweather-v27-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/merriweather-v27-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+  html{
+      box-sizing: border-box;
+  }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* Выставляем основные настройки по-умолчанию для body */
+body {
+  min-width: 100%;
+  min-height: 640vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  overflow-x: hidden;
+  margin: 0;
+  width: 100%;
+  display: flex;
+  padding: 0;
+}
+
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+a span {
+  pointer-events: none;
+}
+
+/* Упрощаем работу с изображениями */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+}
+
+
+.bg-first-screen {
+  width: 100%;
+  position: absolute;
+}
+
+.cube {
+  width: 32px;
+  height: 32px;
+  top: 4%;
+  left: 6%;
+  position: absolute;
+  }
+
+  .button-fs {
+    width: 86px;
+    height: 53px;
+    top: 4%;
+    right: 6%;
+    position: absolute;
+    background-color: #fff;
+    border: 3px;
+    border-radius: 30px;
+    border-color: #000;
+  }
+
+  .button-fs-pic {
+  position: absolute;
+  right: 10%;
+  top: 13%;
+  }
+
+  .offer {
+    width: 741px;
+    height: 537px;
+    left: 4.375%;
+    top: 65%;
+    background-color: #fff;
+    position: absolute;
+    border: 15px;
+    border-color: black;
+  }
+  
+  .offer-t1 {
+    color: black;
+  }
+  
+  .offer-t2 {
+    color: black;
+  }
